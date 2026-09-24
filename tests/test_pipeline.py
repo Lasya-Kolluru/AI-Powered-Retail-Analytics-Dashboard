@@ -2,7 +2,9 @@
 Test suite for Retail Analytics SQLite Engine and Pipeline Logic.
 """
 
+import sys
 import os
+sys.path.insert(0, os.path.abspath("."))
 import sqlite3
 import pandas as pd
 import pytest
