@@ -1,0 +1,31 @@
+Transaction_ID,Date,Product_Category,Product_Name,Region,Units_Sold,Unit_Price,Revenue,Customer_Segment,Payment_Method
+TXN-1001,2024-01-05,Electronics,UltraHD 4K Smart TV,North,12,650.00,7800.00,Corporate,Credit Card
+TXN-1002,2024-01-07,Apparel,Merino Wool Sweater,West,45,85.00,3825.00,Retail,Apple Pay
+TXN-1003,2024-01-10,Home & Kitchen,Espresso Pro Machine,East,18,320.00,5760.00,Retail,Credit Card
+TXN-1004,2024-01-12,Electronics,Noise-Canceling Headphones,South,60,180.00,10800.00,Corporate,Bank Transfer
+TXN-1005,2024-01-15,Footwear,Trail Running Shoes,North,35,120.00,4200.00,Retail,Credit Card
+TXN-1006,2024-01-18,Electronics,Wireless Charging Pad,East,95,35.00,3325.00,Retail,Apple Pay
+TXN-1007,2024-01-20,Apparel,Waterproof Winter Parka,North,28,210.00,5880.00,Corporate,Credit Card
+TXN-1008,2024-01-22,Home & Kitchen,Air Fryer Deluxe,West,40,110.00,4400.00,Retail,PayPal
+TXN-1009,2024-01-25,Beauty,Organic Hydration Serum,South,80,45.00,3600.00,Retail,Credit Card
+TXN-1010,2024-01-28,Electronics,Bluetooth Soundbar,West,22,230.00,5060.00,Corporate,Credit Card
+TXN-1011,2024-02-02,Footwear,Ergonomic Walking Sneakers,East,50,95.00,4750.00,Retail,Apple Pay
+TXN-1012,2024-02-05,Electronics,UltraHD 4K Smart TV,South,15,650.00,9750.00,Corporate,Bank Transfer
+TXN-1013,2024-02-08,Home & Kitchen,Ceramic Cookware Set,North,30,160.00,4800.00,Retail,Credit Card
+TXN-1014,2024-02-12,Apparel,Classic Denim Jacket,West,55,75.00,4125.00,Retail,PayPal
+TXN-1015,2024-02-15,Electronics,Noise-Canceling Headphones,North,45,180.00,8100.00,Retail,Credit Card
+TXN-1016,2024-02-18,Beauty,Anti-Aging Night Cream,East,65,55.00,3575.00,Retail,Credit Card
+TXN-1017,2024-02-22,Home & Kitchen,Espresso Pro Machine,North,14,320.00,4480.00,Corporate,Bank Transfer
+TXN-1018,2024-02-25,Footwear,Trail Running Shoes,West,40,120.00,4800.00,Retail,Apple Pay
+TXN-1019,2024-02-28,Electronics,Wireless Charging Pad,South,110,35.00,3850.00,Retail,Credit Card
+TXN-1020,2024-03-02,Apparel,Merino Wool Sweater,East,32,85.00,2720.00,Retail,Credit Card
+TXN-1021,2024-03-05,Electronics,UltraHD 4K Smart TV,West,20,650.00,13000.00,Corporate,Credit Card
+TXN-1022,2024-03-08,Home & Kitchen,Air Fryer Deluxe,South,35,110.00,3850.00,Retail,PayPal
+TXN-1023,2024-03-12,Footwear,Ergonomic Walking Sneakers,North,65,95.00,6175.00,Corporate,Credit Card
+TXN-1024,2024-03-15,Electronics,Noise-Canceling Headphones,East,38,180.00,6840.00,Retail,Apple Pay
+TXN-1025,2024-03-19,Beauty,Organic Hydration Serum,West,90,45.00,4050.00,Retail,Credit Card
+TXN-1026,2024-03-22,Apparel,Waterproof Winter Parka,South,15,210.00,3150.00,Retail,Credit Card
+TXN-1027,2024-03-25,Home & Kitchen,Ceramic Cookware Set,West,25,160.00,4000.00,Retail,PayPal
+TXN-1028,2024-03-28,Electronics,Bluetooth Soundbar,East,30,230.00,6900.00,Corporate,Bank Transfer
+TXN-1029,2024-03-30,Footwear,Trail Running Shoes,South,42,120.00,5040.00,Retail,Apple Pay
+TXN-1030,2024-03-31,Electronics,UltraHD 4K Smart TV,East,14,650.00,9100.00,Corporate,Credit Card
