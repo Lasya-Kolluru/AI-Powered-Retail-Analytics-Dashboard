@@ -1,11 +1,20 @@
-# 🛍️ AI-Powered Retail Analytics Dashboard
+# 🌌 Universal 3D AI Data Analytics & SQL Intelligence
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-powered-retail-analytics-dashboard-h9ptq4akd939gj4zqkqj5g.streamlit.app/)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Powered by Gemini](https://img.shields.io/badge/AI-Google%20Gemini-orange.svg)](https://ai.google.dev/)
+[![Plotly 3D](https://img.shields.io/badge/3D-WebGL%20%26%20Three.js-cyan.svg)](https://plotly.com/)
 
-A high-performance retail analytics web application built with **Python**, **Pandas**, an in-memory **SQLite** querying engine, and the **Google GenAI SDK (Gemini)** with an interactive **Streamlit** dashboard.
+An interactive, high-performance data intelligence web application combining **Python**, **Pandas**, an in-memory **SQLite** querying engine, **Interactive 3D WebGL / Three.js Visualizations**, and the **Google GenAI SDK (Gemini)** with a responsive **Streamlit** dashboard.
+
+---
+
+## 🌐 Live Web Application
+
+Experience the live interactive application hosted on Streamlit Community Cloud:
+
+👉 **[https://ai-powered-retail-analytics-dashboard-h9ptq4akd939gj4zqkqj5g.streamlit.app/](https://ai-powered-retail-analytics-dashboard-h9ptq4akd939gj4zqkqj5g.streamlit.app/)**
 
 ---
 
@@ -13,24 +22,24 @@ A high-performance retail analytics web application built with **Python**, **Pan
 
 ```mermaid
 graph LR
-    A[Raw Retail Data CSV] -->|Load Dataset| B(Pandas Ingestion)
-    B -->|Push to In-Memory DB| C[(In-Memory SQLite)]
-    C -->|Execute SQL Queries| D[SQL Analytics Engine]
-    D -->|Format Results| E[Streamlit Dashboard]
-    D -->|Send Context & Schema| F[Google GenAI SDK]
-    F -->|Return Strategic Insights| E
+    A[Raw Data CSV / Any Schema] -->|Universal Load| B(Pandas Normalization)
+    B -->|Push to Memory DB| C[(In-Memory SQLite)]
+    C -->|Execute Dynamic SQL| D[SQL Analytics Engine]
+    D -->|3D WebGL Visuals| E[Streamlit 3D Dashboard]
+    D -->|Schema & Context| F[Google GenAI SDK]
+    F -->|Strategic Insights| E
 ```
 
-### Key Technical Pillars:
-1. **Data Ingestion**: Upload custom CSV transactions or load the pre-bundled retail sales dataset.
-2. **In-Memory SQL Engine**: Converts sanitized data directly into an in-memory SQLite database (`:memory:`) as the `retail_sales` table for sub-millisecond query performance without disk I/O locks.
-3. **Automated Metrics Extraction**: Pre-configured SQL queries analyze:
-   - 🏆 Top 5 Products by Gross Revenue
-   - 🌍 Regional Sales and Transaction Breakdown
-   - 👥 Customer Segment & Payment Distribution
-   - 📦 Category-level Volume & Yield
-4. **Interactive SQL Playground**: Run ad-hoc SQL queries with instant schema inspection.
-5. **AI Business Consultant**: Uses the modern `google-genai` SDK with an intelligent multi-model cascade (`gemini-3-flash-preview` / `gemini-2.5-flash` / `gemini-flash-latest`) to generate executive summaries, risk factors, and 3 actionable business recommendations.
+### Key Highlights & Features:
+1. **Universal & Schema-Agnostic**: Works with **any CSV dataset**, any number of rows (from 10 to 500,000+), any column count, and any data domain (Retail, Sales, Finance, HR, Healthcare, Operations, or Text Surveys).
+2. **Interactive 3D Movable Studio**:
+   - **Three.js Cybernetic Architecture**: Interactive 3D pipeline hero at the top—click and drag to orbit 360°, scroll to zoom, and watch live data particle flows.
+   - **Movable 3D Plotly Space**: Full 3D scatter and surface plotting with user-selectable X, Y, and Z (Depth) axes, 360° mouse rotation, and 3D hover spike projections.
+   - **Drill-Down Sunburst & Donut Charts**: Interactive multi-level categorical exploration.
+3. **In-Memory SQL Performance**: Sub-millisecond SQL querying using in-memory SQLite (`:memory:`) without persistent disk overhead or locks.
+4. **Natural Language Text-to-SQL**: Ask any question in plain English (e.g., *"Which category generated the highest volume?"*). Gemini translates your prompt into SQLite syntax, executes it against your data, and explains the findings.
+5. **3D Glassmorphic UI**: Ambient lighting, layered 3D shadows, frosted backdrop blurs, and hover lift effects.
+6. **Gemini AI Strategic Consultant**: Generates executive summaries, risk factors, and 3 prioritized actionable business recommendations using an intelligent multi-model cascade (`gemini-3-flash-preview` / `gemini-2.5-flash` / `gemini-flash-latest`).
 
 ---
 
@@ -68,41 +77,40 @@ GEMINI_API_KEY = "your-actual-api-key-here"
 streamlit run app.py
 ```
 
-The application will launch automatically in your browser at `http://localhost:8501`.
+The application will launch automatically at `http://localhost:8501`.
 
 ---
 
-## ☁️ Deployment to Streamlit Community Cloud
+## ☁️ Deployment on Streamlit Community Cloud
 
-1. Fork or clone this repository to your GitHub account: `Lasya-Kolluru/AI-Powered-Retail-Analytics-Dashboard`
+1. Fork or clone this repository: `Lasya-Kolluru/AI-Powered-Retail-Analytics-Dashboard`
 2. Log into [Streamlit Community Cloud](https://share.streamlit.io/) with GitHub.
-3. Click **"New app"** and configure:
-   - **Repository:** `Lasya-Kolluru/AI-Powered-Retail-Analytics-Dashboard`
-   - **Branch:** `main`
-   - **Main file path:** `app.py`
-4. Click **"Advanced settings..."** ➔ **Secrets** and paste:
+3. Select the repository, branch (`main`), and main file (`app.py`).
+4. Under **Advanced settings...** ➔ **Secrets**, paste:
    ```toml
    GEMINI_API_KEY = "your-gemini-api-key"
    ```
-5. Click **"Deploy!"** — Your app is live with a public URL!
+5. Click **Deploy!**
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-├── app.py                            # Core Streamlit app & Google GenAI integration
-├── requirements.txt                  # Python dependencies
+├── app.py                            # Universal Streamlit application, 3D visual studio, & GenAI engine
+├── requirements.txt                  # Python dependencies (Streamlit, Pandas, Google-GenAI, Plotly)
 ├── LICENSE                           # MIT License (Lasya Kolluru)
 ├── README.md                         # Project documentation and architectural overview
-├── .gitignore                        # Secret isolation & build artifact exclusions
+├── .gitignore                        # Secret isolation & cache exclusions
 ├── .streamlit/
 │   ├── config.toml                   # Executive dark UI styling and client options
 │   └── secrets.toml.template         # Sanitized secrets configuration template
 ├── data/
-│   └── sample_retail_data.csv        # Realistic 30-record sample dataset
+│   └── sample_retail_data.csv        # Comprehensive sample dataset
 └── tests/
-    └── test_pipeline.py              # Automated unit tests for SQL logic & schema
+    ├── test_pipeline.py              # Automated unit tests for SQL pipeline
+    ├── test_generalized.py           # Adaptive schema tests
+    └── test_universal.py             # Multi-domain compatibility tests (Retail, HR, Text)
 ```
 
 ---
