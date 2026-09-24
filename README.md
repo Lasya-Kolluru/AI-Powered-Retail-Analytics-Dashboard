@@ -12,9 +12,32 @@ An interactive, high-performance data intelligence web application combining **P
 
 ## 🌐 Live Web Application
 
-Experience the live interactive application hosted on Streamlit Community Cloud:
+Experience the live interactive application deployed on Streamlit Community Cloud:
 
 👉 **[https://ai-powered-retail-analytics-dashboard-h9ptq4akd939gj4zqkqj5g.streamlit.app/](https://ai-powered-retail-analytics-dashboard-h9ptq4akd939gj4zqkqj5g.streamlit.app/)**
+
+---
+
+## 📸 Application Screenshots & Proof of Execution
+
+### 1. Interactive 3D Architecture & Dynamic KPI Dashboard
+*Demonstrating the movable Three.js 3D data pipeline hero (drag to orbit 360°), responsive glassmorphic KPI cards, and dynamic schema ingestion.*
+
+![Universal 3D AI Dashboard Overview](assets/screenshots/01_universal_3d_overview.png)
+
+---
+
+### 2. In-Memory SQL Query Engine & Interactive Data Visualizations
+*Demonstrating automated SQL query generation, multi-row metric calculation, and dynamic Plotly interactive charts with gradient heatmaps.*
+
+![Automated SQL Analytics Engine & Chart](assets/screenshots/02_automated_sql_analytics_chart.png)
+
+---
+
+### 3. Google Gemini Strategic AI Business Intelligence
+*Demonstrating live Google GenAI integration formulating executive summaries, core observations, and 3 high-impact actionable business recommendations.*
+
+![Gemini Strategic AI Recommendations](assets/screenshots/03_gemini_strategic_ai_insights.png)
 
 ---
 
@@ -102,6 +125,11 @@ The application will launch automatically at `http://localhost:8501`.
 ├── LICENSE                           # MIT License (Lasya Kolluru)
 ├── README.md                         # Project documentation and architectural overview
 ├── .gitignore                        # Secret isolation & cache exclusions
+├── assets/
+│   └── screenshots/                  # Application verification screenshots & proof of execution
+│       ├── 01_universal_3d_overview.png
+│       ├── 02_automated_sql_analytics_chart.png
+│       └── 03_gemini_strategic_ai_insights.png
 ├── .streamlit/
 │   ├── config.toml                   # Executive dark UI styling and client options
 │   └── secrets.toml.template         # Sanitized secrets configuration template
